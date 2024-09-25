@@ -1,6 +1,5 @@
 # Custom Font SDK for iOS
 
-## Overview
 
 In iOS app development, changing fonts manually through storyboards for each UI element can be time-consuming and prone to errors, especially when updates are needed across the app. This manual process becomes inefficient as projects grow.
 
@@ -15,16 +14,16 @@ The **Custom Font SDK** solves this by allowing developers to manage and update 
 - **Dynamic Font Management:** Add custom fonts with just a few lines of code.
 - **Programmatic Font Loading:** Load fonts into the SDK and use them across your app.
 - **Minimal Storyboard Dependency:** Reduces dependency on storyboards for font management, allowing greater flexibility.
-### Advantages:
+### Advantages
 - **Save Time:** No need to manually update fonts via the storyboard, reducing the chance of human error.
 - **Simplify Workflows:** With a streamlined process, fonts can be updated quickly and consistently throughout the app.
 - **Reusability:** Use the same SDK across multiple projects or teams to maintain consistent font usage.
-### How to Integrate the Custom Font SDK
+### How to integrate the Custom Font SDK
 **Get the SDK:** [Download the Custom Font SDK.](https://github.com/SreenuvasulaReddy/Sample/blob/main/CustomFont.xcframework.zip "Download the Custom Font SDK.")
 
 <img src="downloadsdk.png" />
 
-#### Step 1: Add SDK to Target
+#### Step 1: Add SDK to target
 1.	Open your project in **Xcode** and select the desired target.
 2.	Go to the **General** tab.
 3.	Scroll to the **Frameworks, Libraries, and Embedded Content** section.
@@ -39,7 +38,7 @@ The **Custom Font SDK** solves this by allowing developers to manage and update 
 
 <img src="loadFontfiles.png" />
 
-#### Step 3: Load Fonts Programmatically
+#### Step 3: Load Fonts programmatically
 Use the following code snippet to load your custom fonts into the SDK:
 
 ```swift
@@ -70,5 +69,5 @@ Here you can store your font style names to sdk.
 
  <img src="codesnippet.png" />
 
-## Thanks for visiting 😊
+### Thanks for reading 😊
 
