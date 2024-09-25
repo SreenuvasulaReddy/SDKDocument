@@ -31,9 +31,14 @@ The **Custom Font SDK** solves this by allowing developers to manage and update 
 4.	Click the + button to add a file.
 5.	Select the **Custom Font SDK** and add it to your target.
 
+<img src="targetsdk.png" />
+
 #### Step 2: Add Custom Fonts
 1.	Drag your custom font files (e.g., .ttf, .otf) into the Assets folder of your project.
 2.	Ensure the fonts are listed in the Info.plist under the key Fonts provided by application.
+
+<img src="loadFontfiles.png" />
+
 #### Step 3: Load Fonts Programmatically
 Use the following code snippet to load your custom fonts into the SDK:
 
@@ -60,16 +65,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 }
 ```
-For a detailed walkthrough, follow the attached screenshots on how to use the Custom Font SDK.
-
-<img src="targetsdk.png" />
-
-
-**Here you can add your font file:**
-1.	Please add your font files to the project, for this you can create a font folder and maintain it there.
-2.	The files should be attached to your target.
-
-<img src="loadFontfiles.png" />
 
 Here you can store your font style names to sdk.
 
