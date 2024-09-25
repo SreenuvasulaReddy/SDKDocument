@@ -1,10 +1,12 @@
-#Custom Font SDK for iOS
-##Overview
+# Custom Font SDK for iOS
+
+## Overview
+
 In iOS app development, changing fonts manually through storyboards for each UI element can be time-consuming and prone to errors, especially when updates are needed across the app. This manual process becomes inefficient as projects grow.
 
 The **Custom Font SDK** solves this by allowing developers to manage and update fonts programmatically. With this SDK, you can easily load custom fonts without manually updating each element in the storyboard, saving time and reducing errors.
 
-###Need for Custom Font SDK
+### Need for Custom Font SDK
 - **Efficiency:** To avoid repetitive manual font changes through storyboards.
 - **Dynamic Font Updates:** Update fonts across the app with just one integration.
 - **Customization:** Seamlessly add and manage multiple custom fonts.
@@ -17,17 +19,17 @@ The **Custom Font SDK** solves this by allowing developers to manage and update 
 - **Save Time:** No need to manually update fonts via the storyboard, reducing the chance of human error.
 - **Simplify Workflows:** With a streamlined process, fonts can be updated quickly and consistently throughout the app.
 - **Reusability:** Use the same SDK across multiple projects or teams to maintain consistent font usage.
-###How to Integrate the Custom Font SDK
+### How to Integrate the Custom Font SDK
 **Get the SDK:** [Download the Custom Font SDK.](https://github.com/SreenuvasulaReddy/Sample/blob/main/CustomFont.xcframework.zip "Download the Custom Font SDK.")
 
-####Step 1: Add SDK to Target
+#### Step 1: Add SDK to Target
 1.	Open your project in **Xcode** and select the desired target.
 2.	Go to the **General** tab.
 3.	Scroll to the **Frameworks, Libraries, and Embedded Content** section.
 4.	Click the + button to add a file.
 5.	Select the **Custom Font SDK** and add it to your target.
 
-####Step 2: Add Custom Fonts
+#### Step 2: Add Custom Fonts
 1.	Drag your custom font files (e.g., .ttf, .otf) into the Assets folder of your project.
 2.	Ensure the fonts are listed in the Info.plist under the key Fonts provided by application.
 ####Step 3: Load Fonts Programmatically
@@ -37,7 +39,7 @@ Use the following code snippet to load your custom fonts into the SDK:
 CustomFont.FontStyle.storeFontNames(ultralight: "font name" thin:"font name", light: "font name", regular: "font name", medium: "font name", semiBold: "font name", bold: "font name", heavy: "font name", black: "font name")
 ```
 This method will store your custom font names in the SDK and allow you to access them throughout the app.
-####Example Usage:
+#### Example Usage:
 ```swift
 import CustomFont
 @main
