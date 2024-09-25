@@ -11,16 +11,18 @@ The **Custom Font SDK** solves this by allowing developers to manage and update 
 - **Dynamic Font Updates:** Update fonts across the app with just one integration.
 - **Customization:** Seamlessly add and manage multiple custom fonts.
 - **Easy Integration:** The SDK is easy to integrate and requires minimal changes to your project.
-###Features
+### Features
 - **Dynamic Font Management:** Add custom fonts with just a few lines of code.
 - **Programmatic Font Loading:** Load fonts into the SDK and use them across your app.
 - **Minimal Storyboard Dependency:** Reduces dependency on storyboards for font management, allowing greater flexibility.
-###Advantages:
+### Advantages:
 - **Save Time:** No need to manually update fonts via the storyboard, reducing the chance of human error.
 - **Simplify Workflows:** With a streamlined process, fonts can be updated quickly and consistently throughout the app.
 - **Reusability:** Use the same SDK across multiple projects or teams to maintain consistent font usage.
 ### How to Integrate the Custom Font SDK
 **Get the SDK:** [Download the Custom Font SDK.](https://github.com/SreenuvasulaReddy/Sample/blob/main/CustomFont.xcframework.zip "Download the Custom Font SDK.")
+
+<img src="downloadsdk.png" />
 
 #### Step 1: Add SDK to Target
 1.	Open your project in **Xcode** and select the desired target.
@@ -32,7 +34,7 @@ The **Custom Font SDK** solves this by allowing developers to manage and update 
 #### Step 2: Add Custom Fonts
 1.	Drag your custom font files (e.g., .ttf, .otf) into the Assets folder of your project.
 2.	Ensure the fonts are listed in the Info.plist under the key Fonts provided by application.
-####Step 3: Load Fonts Programmatically
+#### Step 3: Load Fonts Programmatically
 Use the following code snippet to load your custom fonts into the SDK:
 
 ```swift
@@ -60,17 +62,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 ```
 For a detailed walkthrough, follow the attached screenshots on how to use the Custom Font SDK.
 
+<img src="targetsdk.png" />
 
 
 **Here you can add your font file:**
 1.	Please add your font files to the project, for this you can create a font folder and maintain it there.
 2.	The files should be attached to your target.
 
-
+<img src="loadFontfiles.png" />
 
 Here you can store your font style names to sdk.
 
- 
+ <img src="codesnippet.png" />
 
 ## Thanks for visiting 😊
 
