@@ -69,5 +69,5 @@ Here you can store your font style names to sdk.
 
  <img src="codesnippet.png" />
 
-### Thanks for reading 😊
+### Thank you for reading. We hope you found it helpful! 😊
 
